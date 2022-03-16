@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1>Contato</h1>
+    <h2>Cadastre um novo ponto turístico!</h2>
+
+    <form id="form-adiciona">
+
+        <div><label for="nome">Nome:*</label>
+            <input type="text" name="nome" id="nome">
+        </div>
+
+        <div>
+            <label for="estado">Estado:*</label>
+            <select name="estado" id="estado">
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+        </select>
+        </div>
+
+        <div>
+            <label for="cidade">Cidade:*</label>
+            <input type="text" name="cidade" id="cidade">
+        </div>
+
+        <div>
+            <label for="horario">Melhor horário para visitar:</label>
+            <input type="radio" name="horario" value="manha">Manhã</input>
+            <input type="radio" name="horario" value="tarde">Tarde</input>
+            <input type="radio" name="horario" value="noite">Noite</input>
+        </div>
+
+        <div>
+            <label for="ingresso">Valor do ingresso:*</label>
+            <input type="text" name="ingresso" id="ingresso">
+        </div>
+
+        <div>
+            <label for="companhia">É melhor ir com quem?:</label>
+            <input type="radio" name="companhia" value="amigos">Amigos</input>
+            <input type="radio" name="companhia" value="familia">Família</input>
+            <input type="radio" name="companhia" value="casal">Casal</input>
+            <input type="radio" name="companhia" value="amigos e familia">Amigos e Família</input>
+            <input type="radio" name="companhia" value="nenhum">Nenhum</input>
+        </div>
+
+        <div>
+            <label for="atividades">O que tem de mais legal para fazer neste lugar?:</label>
+            <input type="checkbox" name="atividades" value="cafe">Café</input>
+            <input type="checkbox" name="atividades" value="praia">Praia</input>
+            <input type="checkbox" name="atividades" value="passeio">Passeio</input>
+            <input type="checkbox" name="atividades" value="cinema">Cinema</input>
+            <input type="checkbox" name="atividades" value="teatro">Teatro</input>
+            <input type="checkbox" name="atividades" value="show">Show</input>
+            <input type="checkbox" name="atividades" value="festa">Festa</input>
+            <input type="checkbox" name="atividades" value="compras">Compras</input>
+        </div>
+
+        <div>
+            <label for="descrição">Fale um pouco sobre o local:*</label>
+            <input type="text" name="descrição" id="descrição">
+        </div>
+
+        <p class=" textoMenor ">Os itens com * são obrigatórios</p>
+
+        <button id="botaoCadastrar ">Cadastrar</button></body>
+
+</form>
+
+</body>
+
+</html>

@@ -6,6 +6,9 @@
 Oiê, tudo bem?
 Esse repositório foi criado para guardar todos os meus projetos e atividades feitas durante o curso 😉
 
+#### Guia:
+- [Projeto Traveller](https://github.com/becabelin/traveller)
+
 #
 ### Sobre a graduação
 🤓 No curso de tecnologia de Sistemas para Internet, o objetivo é se preparar para esta nova demanda do mercado: o comércio eletrônico e da 
